@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>da6d431a-ac0d-41d5-9145-a4272112424d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>softaware.Xaml.Converters.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BooleanConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BooleanInverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BooleanToVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContainsConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EmptyConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EqualsConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mapping.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MappingConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NullConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringFormatConverter.cs" />
+  </ItemGroup>
+</Project>
